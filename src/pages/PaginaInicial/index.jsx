@@ -38,16 +38,18 @@ const PaginaInicial = () => {
 
             <div className={styles.area_input}>
                 <input 
-                type="text"
+                type="number"
                 placeholder="Peso em (kg) Ex: 90"
                 value={peso}
+                required
                 onChange={ (e) => setPeso(e.target.value)} >
                 </input>
 
                 <input 
-                type="text"
+                type="number"
                 placeholder="Altura em (cm) Ex: 190"
                 value={altura}
+                required
                 onChange={ (e) => setAltura(e.target.value) } >
                 </input>
 
