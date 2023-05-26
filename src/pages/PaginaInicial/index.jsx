@@ -40,16 +40,14 @@ const PaginaInicial = () => {
                 <input 
                 type="text"
                 placeholder="Peso em (kg) Ex: 90"
-                value={peso}
-                required
+                value={peso}                
                 onChange={ (e) => setPeso(e.target.value)} >
                 </input>
 
                 <input 
                 type="text"
                 placeholder="Altura em (cm) Ex: 190"
-                value={altura}
-                required
+                value={altura}                
                 onChange={ (e) => setAltura(e.target.value) } >
                 </input>
 
