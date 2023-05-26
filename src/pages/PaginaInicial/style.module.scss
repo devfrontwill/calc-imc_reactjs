@@ -5,19 +5,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #ADD8E6;
 
     h1 {
-        font-size: 50px;
-        text-align: center;        
+        font-size: 47px;
+        text-align: center;
+        border-top: #0000ff 5px solid;
+        border-bottom: #0000ff 5px solid;        
+        border-left: #0000ff 3px solid;
+        border-right: #0000ff 3px solid;
     }
 
     span {
         margin: 12px 0;
+        color: #2f4f4f;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        border-bottom: #2f4f4f 1px solid;
     }
 }
 
 .area_input {
-    width: 500px;
+    width: 28%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +42,7 @@
         color: #fff;
         padding: 0 12px;
         text-align: center;
-        font-size: 18px;        
+        font-size: 18px;          
     }
 
     button {
@@ -49,4 +59,14 @@
 
 h2 {
     margin-top: 28px;
+    padding: 8px;
+    text-align: center;
+    font-style: italic;    
+    color: #0000ff;
+}
+
+@media screen and (max-width: 414px) {
+    .area_input {
+        width: 90%;
+    }
 }
