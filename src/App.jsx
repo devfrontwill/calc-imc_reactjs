@@ -1,15 +1,10 @@
+import PaginaInicial from './pages/PaginaInicial';
+
 function App() {
-
-
   return (
-    <>
-      <div>
-        <h1>
-          Calculadora IMC com React Hook Use State
-        </h1>
-      </div>
-    </>
+    <PaginaInicial />
+
   )
 }
 
-export default App
+export default App;
