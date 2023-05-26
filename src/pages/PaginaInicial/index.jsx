@@ -38,7 +38,7 @@ const PaginaInicial = () => {
 
             <div className={styles.area_input}>
                 <input 
-                type="number"
+                type="text"
                 placeholder="Peso em (kg) Ex: 90"
                 value={peso}
                 required
@@ -46,7 +46,7 @@ const PaginaInicial = () => {
                 </input>
 
                 <input 
-                type="number"
+                type="text"
                 placeholder="Altura em (cm) Ex: 190"
                 value={altura}
                 required
