@@ -29,6 +29,9 @@ const PaginaInicial = () => {
             setMensagem("Você está com Obesidade grau(3) ! Seu IMC é de: " + imc.toFixed(2))
         }
 
+        setPeso('');
+        setAltura('');
+
     }
 
     return (
@@ -52,14 +55,16 @@ const PaginaInicial = () => {
                     onChange={(e) => setAltura(e.target.value)} >
                 </input>
 
-                
+
 
                 <button onClick={calcularIMC}>
                     Calcular
-                </button>                
+                </button>
             </div>
 
-            <h2>{mensagem}</h2>
+            <h2>{mensagem}</h2>           
+            
+
         </div>
     )
 }
