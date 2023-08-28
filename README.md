@@ -1,4 +1,6 @@
-
+<h2 align="center"> 
+	DevCalc IMC
+</h2>
 
 
 </h4>
