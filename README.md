@@ -14,7 +14,7 @@
 
 ## 💻 Sobre o projeto
 
-🚀  Uma aplicação simples mas dinâmica feita apenas para praticar e exercitar o uso do Hook UseState do Reactjs, neste projeto eu criei uma calculadora de IMC com layout simples, porém responsivo.
+🚀  O DevCalc IMC é uma aplicação simples mas dinâmica feita apenas para praticar e exercitar o uso do Hook UseState do Reactjs, neste projeto eu criei uma calculadora de IMC com layout simples, porém responsivo.
 
 ### Página em seu estado inicial :point_down:
 ![imagem1](https://github.com/devfrontwill/calc-imc_reactjs/assets/106280899/ccafa6e5-e3b8-4f90-bb75-541408b3c8c8)
